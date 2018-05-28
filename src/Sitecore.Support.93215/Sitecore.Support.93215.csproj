@@ -66,11 +66,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\zzz\Sitecore.Support.93215.config" />
+    <Content Include="sitecore\shell\Override\Application\Content Manager\Dialogs\LayoutDetails\LayoutDetails.xml" />
+    <Content Include="sitecore\shell\Override\Application\Layouts\DeviceEditor\DeviceEditor.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="web.config" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
